@@ -396,7 +396,7 @@ public class LoginForm extends JFrame implements ActionListener, DownloadListene
 				loginButton.setEnabled(true);
 				optionsButton.setEnabled(true);
 				setIconImage(Toolkit.getDefaultToolkit().getImage(ModPackYML.getModPackIcon()));
-				setTitle(String.format("Technic Launcher - %s - (%s)", Main.build, ModPackListYML.currentModPackLabel));
+				setTitle(String.format("Adrenaline Launcher - %s - (%s)", Main.build, ModPackListYML.currentModPackLabel));
 				options.reloadSettings();
 				MinecraftYML.updateMinecraftYMLCache();
 				setModLoaderEnabled();
