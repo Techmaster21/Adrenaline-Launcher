@@ -11,7 +11,7 @@
 	<!-- Project information -->
 	<groupId>org.spoutcraft</groupId>
 	<artifactId>adrenaline-launcher</artifactId>
-	<version>1.0.1.6</version>
+	<version>1.0.1.7</version>
 	<name>Adrenaline Launcher</name>
 	<url>https://github.com/TechnicPack/Spoutcraft-Launcher</url>
 	<description></description>
@@ -42,14 +42,14 @@
 	<!-- Continuous integration -->
 	<ciManagement>
 		<system>jenkins</system>
-		<url>http://ci.getspout.org</url>
+		<url>http://build.spout.org/</url>
 	</ciManagement>
 
 	<!-- Repository locations -->
 	<repositories>
 		<repository>
 			<id>spout-repo</id>
-			<url>http://repo.getspout.org/content/repositories/snapshots</url>
+			<url>http://repo.spout.org</url>
 		</repository>
 	</repositories>
 

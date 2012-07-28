@@ -287,8 +287,8 @@ public class OptionDialog extends JDialog implements ActionListener {
 
 	private void cleanMods() {
 		File modsConfig = InstalledModsYML.getInstalledModsYmlFile();
-		if (modsConfig.exists()) modsConfig.delete();
-		FileUtils.cleanDirectory(GameUpdater.modsDir);
+                if (modsConfig.exists()) modsConfig.delete();
+                FileUtils.cleanDirectory(GameUpdater.modsDir);
 	}
 
 	public void updateBuildsCombo() {

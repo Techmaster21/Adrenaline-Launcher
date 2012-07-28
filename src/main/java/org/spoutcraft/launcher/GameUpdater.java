@@ -458,8 +458,6 @@ public class GameUpdater implements DownloadListener {
 
 			if (modsDir.exists()) FileUtils.deleteDirectory(modsDir);
 
-			if (modconfigsDir.exists()) FileUtils.deleteDirectory(modconfigsDir);
-
 			if (resourceDir.exists()) FileUtils.deleteDirectory(resourceDir);
 		}
 	}
